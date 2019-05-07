@@ -34,15 +34,64 @@ const vue_app = new Vue({
             // This holds your movies.json data.
             movies: [],
 
+            //poster: <img :src="movies[0].poster[0]">
+
+            //imageinfo: return movies[0].posterIndex,
+
+            //title: return movies[0].title + ' ' + movies[0]country,
+
+            //score: return staricon + movies[0].iscore,
+
+            //runtime: return movies[0].runtime,
+
+            //released: return movies[0].released + ' ' + movies[0].rating
+
+            //websites: return movies[0].imdb + ' ' + movies[0].website,
+
+            //likes: thumbsup + movies[0].likes,
+
+            //dislikes: thumbsdown + movies[0].dislikes
+            /*{
+              poster: this.movies[0].poster[0]
+            }*/
+
+
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             title: "IMDB + Megan's Top 8 Movies",
 
-            owner: 'Megan',
+            owner: 'Megan Machado',
 
-            github: 'https://github.com/mm2288/is219project3'
-            //'https://github.com/mm2288/is219project3'
+            github: href='https://github.com/mm2288/is219project3'
+
       },
+
+
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+
+            /*getMonthText(dateArray) {
+
+            },*/
+
+            like: function (index) {
+              this.movies[index].likes++;
+            },
+
+            dislike: function (index) {
+              this.movies[index].dislikes--;
+            },
+
+            posterClick: function (index) {
+              if (this.movies[index].posterindex == this.movies[index].posters.length - 1) {
+                this.movies[index].posterindex = 0;
+              }
+              else {
+                this.movies[index].posterindex++;
+              }
+            },
+
+            timeText: function(minutes) {
+              return (Math.floor(minutes/60) + "h " + minutes%60 + "m");
+            }
       }
 })
