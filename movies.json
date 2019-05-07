@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Shrek 2",
+            "iscore": 7.2,
+            "rating": "PG",
+            "runtime": 93,
+            "released": [2004, 5, 19],
+            "country": "USA",
+            "posters": ["img/shrek2_1.jpg","img/shrek2_2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0298148/",
+            "website": "https://www.dreamworksanimation.com/shrek/",
+            "likes": 999,
+            "dislikes": 2,
+            "posterindex": 0
+      },
+      {
+            "title": "Rainbow: The Film",
+            "iscore": 8.1,
+            "rating": "N/A",
+            "runtime": 31,
+            "released": [2018, 8, 10],
+            "country": "USA",
+            "posters": ["img/rainbow1.jpg","img/rainbow2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt8856370/",
+            "website": "https://itunes.apple.com/us/music-movie/kesha-rainbow-the-film/1417627500",
+            "likes": 3748,
+            "dislikes": 1,
+            "posterindex": 0
+      },
+      {
+            "title": "It",
+            "iscore": 7.4,
+            "rating": "R",
+            "runtime": 135,
+            "released": [2017, 9, 8],
+            "country": "USA",
+            "posters": ["img/it1.jpg","img/it2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1396484/",
+            "website": "https://www.itthemovie.com/",
+            "likes": 685,
+            "dislikes": 129,
+            "posterindex": 0
       }
 ]
